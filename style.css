@@ -1,0 +1,538 @@
+ul{
+  list-style: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.main-heading{
+  font-family: "Merienda", serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Slabo 27px', serif;
+    font-weight:400;
+}
+
+main{
+    margin: 6vw;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background: #3B3B3B;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: 2.5rem;
+  padding-bottom: 4.9rem; }
+  .header .headline {
+    color: #ffe; }
+
+.header-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%; }
+  .header-subnav li {
+    float: none;
+    display: inline-block; }
+    .header-nav__link{
+      padding: 0.9rem 1rem;
+      font-size: 22px;
+      color: #ffe;
+      text-transform: uppercase;
+      display: block;
+      font-family: "Merienda", serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.35s ease-in-out; }
+      .header-subnav li a.is-active {
+        background: rgba(250, 250, 250, 0.15); }
+      .header-subnav li a:hover {
+        background: rgba(250, 250, 250, 0.15);
+        transition: all 0.35s ease-in-out; }
+
+
+
+/* Home Page */
+
+.hero{
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero__image {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.home-greeting {
+    font-family: "Merienda", serif;
+    text-align: center;
+    font-weight:700;
+    font-size:25px;
+}
+
+.home-heading {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about {
+  margin: 40px 0px 20px 20px;
+  font-size: 12pt;
+  font-weight: bold;
+  position: relative;
+}
+
+.adress>p{
+  color: #039FB5;
+}
+
+
+.intro{
+  font-size: 12pt;
+  border: 1pt solid black;
+  border-radius: 2rem;
+  padding: 15px 15px 15px 15px;
+  line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.intro em{
+    font-family: "Merienda", serif;
+    font-size: 20pt;
+    color: #039FB5;
+}
+
+.happy-hour--callout {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.gallery{
+  margin: 20px 0px 40px;
+}
+
+.hhalf {
+    margin-bottom: 7px;
+}
+
+
+/* About */
+
+.awards{
+  margin: 40px 0px;
+}
+
+.awards-row {
+  display: inline-flex;
+  flex-flow: row;
+}
+
+.awards--item{
+  padding: 10px;
+}
+
+
+/* Menu */
+
+
+/*----- Accordion -----*/
+.food-menu {
+    margin: 6vw;  
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+}
+ 
+
+.menu-section__header{
+    height:250px;
+    background-size:cover ;
+    padding: 20px;
+}
+
+.menu-section-title{
+    /* Type */
+    height: 250px;
+    font-size:  22px;
+    font-family: "Merienda",arial;
+    color:  #eee;
+    outline: 0;
+    text-decoration: none;
+    background-size: cover;
+}
+ 
+.menu-section-content {
+    padding:50px;
+    display:none;
+    background: #F7F7F7;
+}
+
+
+.menu-section-soups{
+    background: url("./img/salad.jpg") no-repeat scroll 50% 0% transparent;
+}
+
+.menu-section-appys{
+    background: url("./img/appy.jpg") no-repeat scroll 50% 0% transparent;
+}
+
+.menu-section-lunch{
+    background: url("./img/lunch.jpg") no-repeat scroll 50% 0% transparent;
+   
+}
+.menu-section-dinner{
+    background: url("./img/dinner.jpg") no-repeat scroll 50% 0% transparent;
+}
+.menu-section-brunch{
+    background: url("./img/brunch.jpg") no-repeat scroll 50% 0% transparent;
+}
+
+
+/* MENU */
+
+.menu-section {
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu_categories {
+    margin: 40px 0px 20px;
+}
+
+.menu_desc{
+  position: relative;
+}
+
+.time-avail.center{
+  font-size: 20px;
+  text-align: center;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: "Merienda", serif;
+    font-weight:200;
+  position: relative;
+  bottom: 30px;
+}
+
+
+
+
+#accordion-5 > div > div.menu_desc.col-md-10 > div:nth-child(6) > h2{
+  padding-top: .5em;
+}
+
+.course_title.center {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.course_title.center.pad.underlined{
+  padding-bottom: 0em;
+}
+
+.menu{
+  border-top: none;
+  padding-bottom: 0px;
+}
+
+span.right{
+  text-align: right;
+}
+
+
+.item_info {
+    position: relative;
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    color: #555;
+    font-size: 16px;
+    letter-spacing: .5px;
+    background: #F7F7F7;
+    margin: 0;
+    font-family: "Merienda", serif;
+    font-weight: normal;
+}
+
+.menu_desc p{
+  padding-bottom: 1em;
+}
+
+.menu_desc{
+  padding-bottom:2em;
+}
+
+.menu_details{
+  text-align: center;
+}
+
+#accordion-3 > div > div > div.menu_desc.col-md-10 > h5:nth-child(6){
+  padding-bottom: 1.5em;
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background: #e3e1e1;
+    position: absolute;
+    top: 5px;
+    border: 0;
+    z-index: -1;
+}
+
+.menu ul li .item_desc.sub{
+
+  margin: 0;
+  padding:0;
+}
+
+.sub_menu{
+  padding-top: 10px;
+}
+
+.sub_menu.burgs{
+  padding-bottom: 1em;
+}
+
+.sub_menu.brunch{
+padding-top:0;
+}
+
+.brunch-adds>ul>li{
+  padding-bottom: .5em;
+}
+
+h4.item_desc.sub.pizza{
+  padding-bottom: 1em;
+}
+
+.available{
+  padding: none;
+}
+
+.brunch-adds{
+  padding-top:0 ;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  
+
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+/* STORY */
+
+.story {
+    margin: 30px 6vw;
+}
+
+.story__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.story-item{
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+  width: 60%
+}
+
+.story-image {
+    margin-bottom: 30px;
+}
+
+hr{
+  border-color: #535353 -moz-use-text-color -moz-use-text-color !important;
+  width: 60%;
+}
+
+.coming-soon{
+  text-align: center;
+}
+
+
+.course_title{
+    margin: 0;     
+    color: #232323;
+    font-size: 25px;
+    font-weight:700;
+    font-family: "Merienda", serif;
+    padding-bottom: .5em;
+}
+
+.course_title.center {
+    padding: 0;
+}
+
+.dish-name{
+    font-family: "Merienda", serif;
+    font-size: 20px;
+}
+
+
+
+/* Wine */
+
+.wine-menu {
+    margin: 6vw;
+}
+
+.wine-menu__section{
+  display: none;
+}
+
+.wine-menu__section--active{
+  display: block;
+}
+
+.wine-menu__list {
+    list-style: none;
+}
+.wine-list { margin-top: 50px; }
+
+.wine-menu__selector {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: rgb(193, 66, 66);
+    padding: 20px 0px;
+    margin: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: "Merienda", serif;
+    font-size: 22px;
+}
+
+.wine-menu__selector.active, .wine-menu__selector:hover { 
+    background: rgba(193, 66, 66, 0.8);
+  }
+
+.wine-menu__tabs {
+    margin: 0;
+}
+ 
+.wine-menu__content  { clear:both; 
+    background: rgba(193, 66, 66, 0.8); 
+    width: 100% ;
+    padding: 20px; 
+  }
+   
+/* header with a text-shadow */
+.wine-name { 
+    padding-top: 15px;
+    font-family: "Merienda", serif; 
+    padding:10px 0;  
+    color:#eee; 
+    text-shadow: #000 0px 0px 2px; 
+  }
+
+.wine-description, .wine-cost{
+  color: #eee;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+}
+
+
+li#burger-addons {
+    padding-bottom: 1rem;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 20px 6vw;
+    background: #3b3b3b;
+}
+
+.footer--nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer--nav-link {
+    font-size: 18px;
+    text-align: center;
+    list-style: none
+}
+
+.footer--nav-link a {
+    font-family: 'Slabo 27px', serif;
+    color: #eee;
+}
+
+.footer--nav-link a:hover{
+  color: #039FB5;
+}
+
+.footer__title{
+    font-family: "Merienda", serif;
+    color: #039FB5;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.footer--hours{
+    font-family: 'Slabo 27px', serif;
+    color: #eee;
+    font-weight:400;
+    text-align: center;
+}
+
+
+.footer--address{
+  text-align: center;
+  color: white;
+}
+
+p.footer--address-title {
+    color: #2ba6cb;
+    font-size: 18px;
+}
+
+
+@media screen and (min-width: 40em){
+    .footer--nav-link {
+      text-align: left;
+  }
+
+  .footer--address{
+    text-align: right;
+  }
+
+}
