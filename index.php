@@ -21,6 +21,7 @@
 					ingredients.</h3>
 			</div>
 	</section>
+	
 	<section class='main-content-section row'>
 		<div class='small-12 medium-4 columns'>
 			<img class='gallery__image' src="img/gallery/bruschetta_oliver_twist.jpg">
