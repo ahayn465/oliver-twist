@@ -126,9 +126,11 @@ margin-bottom: 30px;
 }
 
 
-/* About */
+/* Gallery */
 
-
+.gallery-images {
+   
+}
 
 
 /* Menu */
@@ -551,7 +553,7 @@ p.footer--address-title {
     .main-content-section{
         padding: 20px 3em;
         max-width: 75em;
-        margin: 0 auto;
+        margin: 4em auto;
     }
 
     .story-item{
