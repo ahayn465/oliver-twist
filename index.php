@@ -20,38 +20,20 @@
 					service, comfortable atmosphere, trendy décor and delicious cuisine prepared with the freshest
 					ingredients.</h3>
 			</div>
+	</section>
+	<section class='main-content-section row'>
+		<div class='small-12 medium-4 columns'>
+			<img class='gallery__image' src="img/gallery/bruschetta_oliver_twist.jpg">
+			<img class='gallery__image' src="img/gallery/steak_and_crab_oliver_twist.jpg">
+		</div>	
+		<div class='small-12 medium-4 columns'>
+			<img class='gallery__image' src="img/gallery/ginger_duck_oliver_twist.jpg">
 
-		<!--  start gallery  -->
-	<div class="gallery">
-	    <div class="info">
-	        <div class="title">
-	            <h3 class='main-heading'>The Gallery</h3>
-	            <span class="separator"></span>
-	        </div>
-	    </div>
-
-	    <div class='gallery-images row'>
-	       
-	          
-                    <img class='gallery__image' src="img/gallery/img2t.jpg" alt="Ahi Tuna Salad Olive 'R Twist" title="Cochrane Restaurant"/>
-	         
-	        
-                    <img  class='gallery__image' src="img/gallery/img3.jpg" alt="Roasted Duck Breast" title="Cochrane Olive 'R Twist"/>
-	           
-	        
-                <img  class='gallery__image' src="img/gallery/img1.jpg" alt="Ginger Duck Cochrane Restaurant" title="ginger duck"/>	
-	        
-	       
-	       
-                    <img  class='gallery__image' src="img/gallery/img4.jpg" alt="Olive 'R Twist Bruschetta" title="Cochrane Bruschetta"/>
-	     
-	      
-                    <img  class='gallery__image' src="img/gallery/img5.jpg" alt="Olive R' Twist Steak and Crab Cochrane" title="Cochrane's best restaurant"/>
-	     
-	      
-	    </div>
-	</div><!--  end gallery  -->
-
+		</div>	
+		<div class='small-12 medium-4 columns'>
+			<img class='gallery__image' src="img/gallery/homemade_hamburger_oliver_twist.jpg">
+			<img class='gallery__image' src="img/gallery/ahi_tuna_salad_oliver_twist.jpg">
+		</div>	
 	</section>
 
 
