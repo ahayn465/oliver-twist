@@ -5,8 +5,7 @@
 		<img class='hero__image' src="./img/hero.jpg">
 	</section><!--  end hero  -->
 
-	<section class="about">
-		<div class="row">
+	<section class="row main-content-section about">
 			<div class="intro">
 				<h1 class="home-greeting">Welcome to Olive 'R Twist!</h1>
 				<h4 class="home-heading">A trendy bistro and martini bar
@@ -21,7 +20,6 @@
 					service, comfortable atmosphere, trendy décor and delicious cuisine prepared with the freshest
 					ingredients.</h3>
 			</div>
-		</div>
 	</section>
 
 
