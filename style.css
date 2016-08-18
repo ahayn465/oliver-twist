@@ -19,7 +19,7 @@ p{
     font-weight:400;
 }
 
-main{
+.main-content-section{
     padding:20px 1em;
 }
 
@@ -66,13 +66,13 @@ main{
 /* Home Page */
 
 .hero{
-    margin: -20px -1em;
+  
     padding-bottom: 30px;
 }
 
 .hero__image {
     width: 100%;
-    max-width: 1400px;
+    
 }
 
 .home-greeting {
@@ -90,7 +90,6 @@ main{
 }
 
 .about {
-  margin: 4vw;
   font-size: 12pt;
   font-weight: bold;
   position: relative;
@@ -122,10 +121,6 @@ margin-bottom: 30px;
 }
 
 
-.gallery{
-  margin: 4vw;
-}
-
 .hhalf {
     margin-bottom: 7px;
 }
@@ -141,7 +136,8 @@ margin-bottom: 30px;
 
 /*----- Accordion -----*/
 .food-menu {
-    margin: 4vw;
+    max-width: 900px;
+    margin: 0 auto;
     box-shadow:0px 1px 3px rgba(0,0,0,0.25);
     border-radius:3px;
     background:#f7f7f7;
@@ -407,9 +403,7 @@ hr{
 
 /* Wine */
 
-.wine-menu {
-    margin: 4vw;
-}
+
 
 .wine-menu__section{
   display: none;
@@ -474,9 +468,16 @@ li#burger-addons {
 
 /* Footer */
 
+footer{
+      background: #3b3b3b;  
+}
+
 .footer {
     padding: 20px 3em;
-    background: #3b3b3b;
+
+    max-width: 75em;
+    margin: 0 auto;
+  
 }
 
 .footer--nav {
@@ -547,8 +548,10 @@ p.footer--address-title {
 
 @media all and (min-width: 768px){
 
-    main{
+    .main-content-section{
         padding: 20px 3em;
+        max-width: 75em;
+        margin: 0 auto;
     }
 
     .story-item{

@@ -5,7 +5,7 @@
  	}
 </style>
 
-<section class="wine-list">
+<section class="main-content-section wine-list">
 	<div class="row">
 		<div class='wine-menu'>
 				<ul class='wine-menu__tabs'>

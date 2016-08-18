@@ -1,7 +1,7 @@
 <?php include("header.html") ?>
 
 
-	<section class="story">
+	<section class="main-content-section story">
 		<h3 class='main-heading'>Our Story</h3>
 		<div class="story__row">
 			<img class='story-image' src="img/serving.jpg" />

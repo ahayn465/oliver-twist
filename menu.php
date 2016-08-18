@@ -2,7 +2,7 @@
 include("header.html") 
 
 ?>
-<section class="menu_categories">
+<section class="main-content-seciton menu_categories">
 	<div class="row">
 		<div class="food-menu">
 			<div class="menu-section">
