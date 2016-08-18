@@ -1,3 +1,5 @@
+
+
 ul{
   list-style: none;
 }
@@ -18,7 +20,7 @@ p{
 }
 
 main{
-    margin: 6vw;
+    padding:20px 1em;
 }
 
 /* Header */
@@ -64,9 +66,8 @@ main{
 /* Home Page */
 
 .hero{
-    display: flex;  
-    align-items: center;
-    justify-content: space-around;
+    margin: -20px -1em;
+    padding-bottom: 30px;
 }
 
 .hero__image {
@@ -79,6 +80,7 @@ main{
     text-align: center;
     font-weight:700;
     font-size:25px;
+    margin-bottom: 15px;
 }
 
 .home-heading {
@@ -88,7 +90,7 @@ main{
 }
 
 .about {
-  margin: 40px 0px 20px 20px;
+  margin: 4vw;
   font-size: 12pt;
   font-weight: bold;
   position: relative;
@@ -105,7 +107,7 @@ main{
   border-radius: 2rem;
   padding: 15px 15px 15px 15px;
   line-height: 1.5em;
-    margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .intro em{
@@ -121,7 +123,7 @@ main{
 
 
 .gallery{
-  margin: 20px 0px 40px;
+  margin: 4vw;
 }
 
 .hhalf {
@@ -131,18 +133,7 @@ main{
 
 /* About */
 
-.awards{
-  margin: 40px 0px;
-}
 
-.awards-row {
-  display: inline-flex;
-  flex-flow: row;
-}
-
-.awards--item{
-  padding: 10px;
-}
 
 
 /* Menu */
@@ -150,12 +141,15 @@ main{
 
 /*----- Accordion -----*/
 .food-menu {
-    margin: 6vw;  
+    margin: 4vw;
     box-shadow:0px 1px 3px rgba(0,0,0,0.25);
     border-radius:3px;
     background:#f7f7f7;
 }
  
+.menu-section{
+    margin-left: 0;
+}
 
 .menu-section__header{
     height:250px;
@@ -175,7 +169,7 @@ main{
 }
  
 .menu-section-content {
-    padding:50px;
+    padding:20px;
     display:none;
     background: #F7F7F7;
 }
@@ -262,7 +256,6 @@ span.right{
 .price{
     position: absolute;
     right: 0;
-    bottom: -10px;
     color: #555;
     font-size: 16px;
     letter-spacing: .5px;
@@ -355,8 +348,8 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 /* STORY */
 
-.story {
-    margin: 30px 6vw;
+.about-page {
+
 }
 
 .story__row {
@@ -369,11 +362,17 @@ hr.style-seven:before { /* Not really supposed to work, but does */
   padding: 20px;
   font-size: 18px;
   font-family: 'Slabo 27px', serif;
-  width: 60%
+  width: 100%;
 }
 
 .story-image {
     margin-bottom: 30px;
+}
+
+
+
+@media all and (min-width: 700px){
+
 }
 
 hr{
@@ -409,7 +408,7 @@ hr{
 /* Wine */
 
 .wine-menu {
-    margin: 6vw;
+    margin: 4vw;
 }
 
 .wine-menu__section{
@@ -476,11 +475,12 @@ li#burger-addons {
 /* Footer */
 
 .footer {
-    padding: 20px 6vw;
+    padding: 20px 3em;
     background: #3b3b3b;
 }
 
 .footer--nav {
+    margin-left: 0;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -512,7 +512,13 @@ li#burger-addons {
     color: #eee;
     font-weight:400;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+.hour {
+    margin-bottom: 0px;
+}
+
 
 
 .footer--address{
@@ -535,4 +541,17 @@ p.footer--address-title {
     text-align: right;
   }
 
+}
+
+
+
+@media all and (min-width: 768px){
+
+    main{
+        padding: 20px 3em;
+    }
+
+    .story-item{
+        width: 60%;
+    }
 }

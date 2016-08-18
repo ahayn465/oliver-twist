@@ -548,7 +548,7 @@ include("header.html")
 								<hr class="style-seven"/></div>
 
 
-								<div class="small-12 large-4 columns">
+								<div class="small-12 medium-4 columns">
 									<div class="menu left">
 										<?php
 										if($menu[$course]['brunch-add-ons']){
@@ -567,13 +567,13 @@ include("header.html")
 													$count ++ ;
 													if($count == 4){
 														echo "</li></ul>
-														</div></div></div><div class='small-12 large-4 columns'><div class='menu right'><div class='item_info sub_menu brunch-adds'>
+														</div></div></div><div class='small-12 medium-4 columns'><div class='menu right'><div class='item_info sub_menu brunch-adds'>
 														<ul class=''>";
 													}
 													echo "</li>";
 													if($count == 8){
 														echo "</li></ul>
-														</div></div></div><div class='small-12 large-4 columns'><div class='menu right'><div class='item_info sub_menu brunch-adds'>
+														</div></div></div><div class='small-12 medium-4 columns'><div class='menu right'><div class='item_info sub_menu brunch-adds'>
 														<ul class=''>";
 													}
 													echo "</li>";
